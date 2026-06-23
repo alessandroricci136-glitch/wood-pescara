@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WOOD Pescara — Pizzeria al Porto Turistico</title>
+  <meta name="description" content="WOOD Pescara: pizzeria gourmet al porto turistico di Pescara. Pizza napoletana a legna, arrosticini, fritti e cucina creativa. Prenota il tuo tavolo." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="navbar" id="navbar">
+  <a href="index.html" class="navbar__logo" aria-label="WOOD Pescara - Home">
+    <img src="assets/wood-icon.png" alt="WOOD Pescara" class="navbar__logo-img" />
+  </a>
+  <ul class="navbar__links" id="nav-links">
+    <button class="navbar__close" id="nav-close" aria-label="Chiudi menu">&#x2715;</button>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contatti.html">Contatti</a></li>
+    <li><a href="contatti.html" class="navbar__cta">Prenota</a></li>
+  </ul>
+  <div class="navbar__burger" id="burger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero hero--photo" style="background-image: url('assets/wood-logo-hero.jpg');">
+  <div class="hero__overlay"></div>
+  <div class="hero__content hero__content--photo">
+    <h1 class="sr-only">WOOD Pescara</h1>
+    <p class="hero__eyebrow">Porto Turistico di Pescara</p>
+    <div class="hero__actions">
+      <a href="menu.html" class="btn btn--primary">Scopri il Menu</a>
+      <a href="contatti.html" class="btn btn--outline">Prenota un Tavolo</a>
+    </div>
+  </div>
+  <div class="hero__scroll-hint">
+    <div class="hero__scroll-line"></div>
+    <span>Scopri</span>
+  </div>
+</section>
+
+<!-- ═══ NUMERI STRIP ═══ -->
+<div class="stats-strip" style="background: var(--terracotta); color: var(--crema); padding: 1.4rem 2rem;">
+  <div style="max-width: var(--max-w); margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem; text-align: center;">
+    <div>
+      <div class="stat-num" style="font-family: var(--ff-display); font-size: 2.2rem; font-weight: 700; line-height: 1;" data-target="4.3" data-decimal="1">0</div>
+      <div style="font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85;">Rating Google</div>
+    </div>
+    <div>
+      <div class="stat-num" style="font-family: var(--ff-display); font-size: 2.2rem; font-weight: 700; line-height: 1;" data-target="1200" data-suffix="+">0</div>
+      <div style="font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85;">Recensioni</div>
+    </div>
+    <div>
+      <div style="font-family: var(--ff-display); font-size: 2.2rem; font-weight: 700; line-height: 1;">Porto</div>
+      <div style="font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85;">Turistico Pescara</div>
+    </div>
+    <div>
+      <div class="stat-num" style="font-family: var(--ff-display); font-size: 2.2rem; font-weight: 700; line-height: 1;" data-target="100" data-suffix="%">0</div>
+      <div style="font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85;">Forno a Legna</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ STORIA ═══ -->
+<section class="section section--mid">
+  <div class="section__inner">
+    <div class="storia reveal">
+      <div class="storia__text">
+        <span class="section__label">La nostra storia</span>
+        <h2 class="section__title">Nati dal fuoco,<br><em>cresciuti sul mare</em></h2>
+        <p>WOOD nasce da una passione semplice ma profonda: creare una pizza che lasci il segno. Non la solita rotonda piatta, ma un'esperienza — impasto a lunga lievitazione, fior di latte selezionato, ingredienti che raccontano il territorio abruzzese e il meglio del Sud Italia.</p>
+        <p>Il porto turistico di Pescara non è solo una location: è la nostra cornice naturale. L'acqua, il vento del Adriatico, la vita del porticciolo — tutto contribuisce all'atmosfera unica che i nostri ospiti respirano ogni sera. Un luogo dove stare, non solo mangiare.</p>
+        <p>Accanto alla pizza, abbiamo costruito un menu che onora le radici abruzzesi: arrosticini fatti a mano, fritti creativi, antipasti generosi. Un posto in cui ogni dettaglio è scelto con cura, dal bordo del cornicione all'ultimo goccio di olio a crudo.</p>
+        <a href="menu.html" class="btn btn--primary" style="margin-top: 1rem; display: inline-block;">Esplora il Menu</a>
+      </div>
+      <div class="storia__visual">
+        <div class="storia__img-frame" style="background-image:url('assets/pizza-storia.jpg');background-size:cover;background-position:center;">
+        </div>
+        <div class="storia__badge">
+          <div class="storia__badge-num">Top</div>
+          <div class="storia__badge-text">Pizzeria<br>Pescara</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PUNTI DI FORZA ═══ -->
+<section class="section section--dark">
+  <div class="section__inner">
+    <div style="text-align: center; margin-bottom: 1rem;" class="reveal">
+      <span class="section__label">Perché sceglierci</span>
+      <h2 class="section__title" style="color: var(--crema);">L'essenza di <em>WOOD</em></h2>
+    </div>
+    <div class="punti reveal">
+      <div class="punto">
+        <div class="punto__icon"><svg class="icon" style="width:2.4rem;height:1.8rem;"><use href="#icon-flames"/></svg></div>
+        <h3 class="punto__title">Forno a Legna</h3>
+        <p class="punto__text">La fiamma viva del legno di quercia dona alla nostra pizza quel profumo e quella consistenza impossibili da replicare con altri metodi. Alta temperatura, bordo croccante, cuore morbido.</p>
+      </div>
+      <div class="punto">
+        <div class="punto__icon"><svg class="icon"><use href="#icon-wheat"/></svg></div>
+        <h3 class="punto__title">Impasto Artigianale</h3>
+        <p class="punto__text">Lunga lievitazione naturale, farine selezionate, bilanciamento tra tradizione napoletana e identità propria. Un impasto leggero, digeribile, riconoscibile a ogni morso.</p>
+      </div>
+      <div class="punto">
+        <div class="punto__icon"><svg class="icon"><use href="#icon-palette"/></svg></div>
+        <h3 class="punto__title">Creatività nei Topping</h3>
+        <p class="punto__text">Dalla ventricina abruzzese alla burratina di tartufo, dal pulled pork ai jalapeños ripieni di formaggio. Pizze classiche e pizze sorprendenti — per chi vuole essere stupito.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TIMELINE SERATA ═══ -->
+<section class="section section--mid timeline-section">
+  <div class="section__inner">
+    <div style="text-align: center; margin-bottom: 3.5rem;" class="reveal">
+      <span class="section__label">Il nostro mondo</span>
+      <h2 class="section__title">Una serata <em>da WOOD</em></h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline__line"></div>
+
+      <div class="timeline__step reveal">
+        <div class="timeline__marker"><svg class="icon"><use href="#icon-anchor"/></svg></div>
+        <div class="timeline__time">19:30</div>
+        <h3 class="timeline__title">L'arrivo al porto</h3>
+        <p class="timeline__text">Il sole cala sul porticciolo, le barche dondolano piano. Ti accomodi a un tavolo con vista, l'aria di mare si mescola al profumo di legna che arde.</p>
+      </div>
+
+      <div class="timeline__step reveal">
+        <div class="timeline__marker"><svg class="icon"><use href="#icon-flames"/></svg></div>
+        <div class="timeline__time">20:00</div>
+        <h3 class="timeline__title">Il forno si accende</h3>
+        <p class="timeline__text">L'impasto a lunga lievitazione incontra la fiamma viva. Bordo che si gonfia, profumo di crosta calda — la pizza esce in due minuti, non un secondo di più.</p>
+      </div>
+
+      <div class="timeline__step reveal">
+        <div class="timeline__marker"><svg class="icon"><use href="#icon-skewer"/></svg></div>
+        <div class="timeline__time">21:00</div>
+        <h3 class="timeline__title">Arrosticini in brace</h3>
+        <p class="timeline__text">La tradizione abruzzese prende il sopravvento: spiedini tagliati a mano, brace viva, il rumore dello sfrigolio che accompagna le chiacchiere a tavola.</p>
+      </div>
+
+      <div class="timeline__step reveal">
+        <div class="timeline__marker"><svg class="icon"><use href="#icon-leaf"/></svg></div>
+        <div class="timeline__time">22:30</div>
+        <h3 class="timeline__title">Sotto le stelle del porto</h3>
+        <p class="timeline__text">Un dolce, un ultimo bicchiere, le luci del porto che si riflettono sull'acqua. La serata rallenta, e tu non hai nessuna fretta di andare via.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ QUOTE ═══ -->
+<div class="quote-section reveal">
+  <p class="quote-text">
+    "Pizze diverse dal solito per bontà, specialità, sapori e creatività.<br>Impossibile non consigliarla."
+  </p>
+  <p class="quote-source">— Recensione verificata, Tripadvisor</p>
+</div>
+
+<!-- ═══ SPECIALITÀ IN EVIDENZA ═══ -->
+<section class="section section--mid">
+  <div class="section__inner">
+    <div style="text-align: center; margin-bottom: 3rem;" class="reveal">
+      <span class="section__label">Dal menu</span>
+      <h2 class="section__title">Le nostre <em>signature</em></h2>
+    </div>
+    <div class="signature-grid reveal">
+      <div class="signature-card">
+        <div class="signature-card__tag">Signature</div>
+        <h3 class="signature-card__title">Tartufo & Porcini</h3>
+        <p class="signature-card__text">Base crema di tartufo, provola affumicata, funghi porcini, champignon, pioppini, olio EVO e burratina di tartufo al centro.</p>
+      </div>
+      <div class="signature-card">
+        <div class="signature-card__tag">Abruzzo</div>
+        <h3 class="signature-card__title">Ventricina & Bufala</h3>
+        <p class="signature-card__text">Mozzarella di bufala DOP, pomodoro, ventricina abruzzese, jalapeños ripieni di formaggio e cipolla caramellata.</p>
+      </div>
+      <div class="signature-card">
+        <div class="signature-card__tag">Stagionale</div>
+        <h3 class="signature-card__title">Zucca & Salsiccia</h3>
+        <p class="signature-card__text">Crema di zucca, mozzarella di bufala DOP, salsiccia di fegato, cicorietta selvatica, peperone dolce di Altino, grana.</p>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+      <a href="menu.html" class="btn btn--primary">Tutto il Menu</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA FINALE ═══ -->
+<section style="background: var(--verde-bosco); padding: 6rem 2rem; text-align: center; position: relative; overflow: hidden;">
+  <svg data-parallax="0.15" style="position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.06;" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <path d="M-100 350 Q 200 100 500 300 Q 700 150 900 350" fill="none" stroke="#4A8C6F" stroke-width="2"/>
+    <path d="M-50 400 Q 300 150 600 350 Q 750 200 950 400" fill="none" stroke="#4A8C6F" stroke-width="1.5"/>
+  </svg>
+  <div style="position: relative; z-index: 1; max-width: 580px; margin: 0 auto;" class="reveal">
+    <p style="font-size: 0.72rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--terracotta-lt); margin-bottom: 1.2rem;">Vieni a trovarci</p>
+    <h2 style="font-family: var(--ff-display); font-size: clamp(2rem, 5vw, 3.2rem); color: var(--crema); margin-bottom: 1.2rem; line-height: 1.15;">Una serata al porto<br><em style="color: var(--terracotta-lt);">non dimentica.</em></h2>
+    <p style="color: rgba(245,240,232,0.65); margin-bottom: 2.5rem; font-size: 1rem;">Prenota il tuo tavolo chiamandoci direttamente. Le serate si riempiono presto — assicurati il posto.</p>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="tel:+393920085666" class="btn btn--primary"><svg class="icon" style="width:0.9em;height:0.9em;"><use href="#icon-phone"/></svg> Prenota</a>
+      <a href="contatti.html" class="btn btn--outline" style="color: var(--crema); border-color: rgba(245,240,232,0.4);">Come raggiungerci</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer__inner">
+    <div>
+      <div class="footer__brand-name">WOOD</div>
+      <div class="footer__brand-sub">Pescara · Porto Turistico</div>
+      <p class="footer__desc">Pizza a legna, arrosticini, fritti e cucina creativa nel cuore del porto turistico di Pescara. Un posto dove il gusto incontra l'atmosfera.</p>
+    </div>
+    <div>
+      <div class="footer__col-title">Navigazione</div>
+      <ul class="footer__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li><a href="contatti.html">Prenota</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer__col-title">Orari</div>
+      <div class="footer__desc">
+        <p>Lunedì — Domenica</p>
+        <p style="color: var(--crema); margin-top: 0.3rem;">19:30 — 23:30</p>
+        <p style="margin-top: 0.8rem;">Lungomare Papa Giovanni XXIII,<br>Porto Turistico, Pescara</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2025 WOOD Pescara — Tutti i diritti riservati</span>
+    <div class="footer__social">
+      <a href="https://www.instagram.com/wood_pescara/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.instagram.com/wood_pescara_menu/" target="_blank" rel="noopener">Menu Instagram</a>
+    </div>
+  </div>
+</footer>
+<p style="text-align:center; margin-top:1.5rem; font-size:0.7rem; opacity:0.4; background: var(--carbone); padding-bottom: 1.5rem;">
+    <a href="admin.html" style="color: rgba(245,240,232,0.55);">Area riservata</a>
+</p>
+
+<script src="js/icons.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
