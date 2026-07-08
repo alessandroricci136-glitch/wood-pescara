@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin.html
-
-Sitemap: https://alessandroricci136-glitch.github.io/wood-pescara/sitemap.xml
