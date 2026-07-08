@@ -38,14 +38,14 @@
   function loadAnalytics() {
     if (!window.woodAnalyticsEnabled) return;
     const s = document.createElement('script');
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MN0HB8FVN0';
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-NZ84LTJ8C5';
     s.async = true;
     document.head.appendChild(s);
     s.onload = () => {
       window.dataLayer = window.dataLayer || [];
       function gtag(){ dataLayer.push(arguments); }
       gtag('js', new Date());
-      gtag('config', 'G-MN0HB8FVN0');
+      gtag('config', 'G-NZ84LTJ8C5');
     };
   }
 
